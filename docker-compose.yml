@@ -1,0 +1,9 @@
+# docker compose file
+version: '3.4'
+
+services:
+  rustbyexample:
+    image: rustbyexample
+    build:
+      context: .
+      dockerfile: ./Dockerfile
